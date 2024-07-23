@@ -27,6 +27,7 @@ const App = () => {
           <Route path="/sign-in" element={<SignIn />} />
           <Route path="/forgot-password" element={<ForgotPassword />} />
           <Route path="/update-profile" element={<UpdateProfile />} />
+          <Route path="*" element={<h1>Page Not Found!</h1>} />
         </Routes>
       </BrowserRouter>
     </Container>
